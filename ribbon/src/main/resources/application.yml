@@ -1,0 +1,9 @@
+server:
+  port: 8040
+spring:
+  application:
+    name: ribbon
+eureka:
+  client:
+    instance:
+      prefer-ip-address: true

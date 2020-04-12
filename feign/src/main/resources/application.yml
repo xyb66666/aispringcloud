@@ -1,0 +1,13 @@
+server:
+  port: 8050
+spring:
+  application:
+    name: feign
+eureka:
+  instance:
+    prefer-ip-address: true
+
+# 开启熔断机制
+feign:
+  hystrix:
+    enabled: true

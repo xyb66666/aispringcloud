@@ -1,0 +1,9 @@
+server:
+  port: 8020
+spring:
+  application:
+    name: consumer
+eureka:
+  client:
+    instance:
+      prefer-ip-address: true
